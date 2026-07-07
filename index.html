@@ -1,4 +1,3 @@
-<img src="headshot.jpg.jpeg" alt="Elisheva Kusayeva" style="width: 130px; height: 130px; border-radius: 50%; object-fit: cover; border: 3px solid white; margin-bottom: 15px;">
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +6,11 @@
     <title>Elisheva Kusayeva | Quantitative Portfolio</title>
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; color: #333; background-color: #f7f9fa; line-height: 1.6; }
-        header { background: linear-gradient(135deg, #1a365d 0%, #2a4365 100%); color: white; padding: 60px 20px; text-align: center; }
-        header h1 { margin: 0; font-size: 2.5em; letter-spacing: 0.5px; }
-        header p { margin: 10px 0 0; font-size: 1.2em; color: #e2e8f0; font-weight: 300; }
+        header { background: linear-gradient(135deg, #1a365d 0%, #2a4365 100%); color: white; padding: 50px 20px; text-align: left; }
+        .header-container { max-width: 1000px; margin: 0 auto; display: flex; align-items: center; gap: 30px; flex-wrap: wrap; }
+        .header-text { flex: 1; min-width: 280px; }
+        header h1 { margin: 0; font-size: 2.7em; letter-spacing: 0.5px; }
+        header p { margin: 8px 0 15px; font-size: 1.25em; color: #e2e8f0; font-weight: 300; }
         .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
         .section { background: white; padding: 30px; margin-bottom: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
         h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; margin-top: 0; }
@@ -21,26 +22,32 @@
         .btn { display: inline-block; background: #3182ce; color: white; padding: 8px 16px; text-align: center; text-decoration: none; border-radius: 4px; font-weight: 500; margin-top: 10px; font-size: 0.9em; }
         .btn:hover { background: #2b6cb0; }
         .tag { background: #edf2f7; color: #4a5568; padding: 3px 8px; border-radius: 4px; font-size: 0.8em; margin-right: 5px; display: inline-block; font-weight: 500; }
-        .links { text-align: center; margin-top: 20px; }
-        .links a { color: white; margin: 0 10px; text-decoration: none; font-weight: 500; border: 1px solid white; padding: 5px 15px; border-radius: 20px; font-size: 0.9em; transition: 0.3s; }
-        .links a:hover { background: white; color: #1a365d; }
+        .links-flex { display: flex; gap: 12px; flex-wrap: wrap; }
+        .links-flex a { color: white; text-decoration: none; font-weight: 500; border: 1px solid white; padding: 6px 18px; border-radius: 20px; font-size: 0.9em; transition: 0.3s; }
+        .links-flex a:hover { background: white; color: #1a365d; }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Elisheva Kusayeva</h1>
-        <p>Business Analytics & Accounting | Aspiring Financial Engineer</p>
-        <div class="links">
-            <a href="https://www.linkedin.com/in/elisheva-k-60336b31b" target="_blank">LinkedIn</a>
-            <a href="mailto:swissmoney00@gmail.com">Email Profile</a>
+        <div class="header-container">
+            <img src="headshot.jpg.jpeg" alt="Elisheva Kusayeva" style="width: 140px; height: 140px; border-radius: 12px; object-fit: cover; border: 3px solid white; box-shadow: 0 4px 10px rgba(0,0,0,0.15);">
+            
+            <div class="header-text">
+                <h1>Elisheva Kusayeva</h1>
+                <p>Business Analytics & Accounting | Aspiring Quantitative Trader & Strategist</p>
+                <div class="links-flex">
+                    <a href="https://www.linkedin.com/in/elisheva-k-60336b31b" target="_blank">LinkedIn</a>
+                    <a href="mailto:swissmoney00@gmail.com">Email Profile</a>
+                </div>
+            </div>
         </div>
     </header>
 
     <div class="container">
         <div class="section">
             <h2>Executive Summary</h2>
-            <p>Honors College student at Hofstra University’s Zarb School of Business pursuing a dual major in Business Analytics and Accounting, minoring in Finance (Cumulative GPA: 3.96 | Major GPA: 4.0). Driven by the intersection of empirical asset pricing, market data systems, and risk analytics, I actively pair corporate accounting precision with quantitative modeling, statistical estimation frameworks, and advanced mathematical self-study to prepare for graduate-level financial engineering.</p>
+            <p>Honors College student at Hofstra University’s Zarb School of Business pursuing a dual major in Business Analytics and Accounting, minoring in Finance (Cumulative GPA: 3.96 | Major GPA: 4.0). Driven by the execution logic of empirical asset pricing, market microstructure, and high-frequency risk distribution, I actively pair corporate accounting precision with quantitative backtesting, statistical estimation frameworks, and advanced mathematical self-study to prepare for a career as a Quantitative Trader and Strategist.</p>
         </div>
 
         <div class="section">
@@ -82,8 +89,8 @@
                 <div>
                     <h3 style="font-size: 1.1em; color: #2b6cb0; margin-bottom: 5px;">Hofstra University Core Analytics</h3>
                     <ul style="padding-left: 20px; margin-top: 5px;">
-                        <li><strong>Advanced Business Analytics (BAN 122):</strong> Grade: A | Comprehensive data modeling, predictive analysis, and enterprise optimization methods.</li>
-                        <li><strong>Information Systems (BAN 110):</strong> Grade: A | Foundation in database structures, SQL querying networks, and data integrity systems.</li>
+                        <li><strong>Advanced Business Statistics (BAN 122):</strong> Grade: A | Comprehensive data modeling, predictive analysis, and enterprise optimization methods.</li>
+                        <li><strong>Database Management Systems (IT 117):</strong> Grade: A | Foundation in database structures, SQL querying networks, and data integrity systems.</li>
                         <li><strong>Macro/Microeconomic Theory:</strong> Grade: A | Foundations in quantitative asset economics and structural market behavior models.</li>
                     </ul>
                 </div>
@@ -96,6 +103,7 @@
                 </div>
             </div>
         </div>
+    </div>
 
 </body>
 </html>
