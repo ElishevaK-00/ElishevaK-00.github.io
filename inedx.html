@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elisheva Kusayeva | Quantitative Portfolio</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; color: #333; background-color: #f7f9fa; line-height: 1.6; }
+        header { background: linear-gradient(135deg, #1a365d 0%, #2a4365 100%); color: white; padding: 60px 20px; text-align: center; }
+        header h1 { margin: 0; font-size: 2.5em; letter-spacing: 0.5px; }
+        header p { margin: 10px 0 0; font-size: 1.2em; color: #e2e8f0; font-weight: 300; }
+        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+        .section { background: white; padding: 30px; margin-bottom: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h2 { color: #2b6cb0; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; margin-top: 0; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        @media(max-width: 768px) { .grid { grid-template-columns: 1fr; } }
+        .card { border: 1px solid #e2e8f0; padding: 20px; border-radius: 6px; background: #fff; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-3px); border-color: #cbd5e0; }
+        .card h3 { margin-top: 0; color: #2d3748; }
+        .btn { display: inline-block; background: #3182ce; color: white; padding: 8px 16px; text-align: center; text-decoration: none; border-radius: 4px; font-weight: 500; margin-top: 10px; font-size: 0.9em; }
+        .btn:hover { background: #2b6cb0; }
+        .tag { background: #edf2f7; color: #4a5568; padding: 3px 8px; border-radius: 4px; font-size: 0.8em; margin-right: 5px; display: inline-block; font-weight: 500; }
+        .links { text-align: center; margin-top: 20px; }
+        .links a { color: white; margin: 0 10px; text-decoration: none; font-weight: 500; border: 1px solid white; padding: 5px 15px; border-radius: 20px; font-size: 0.9em; transition: 0.3s; }
+        .links a:hover { background: white; color: #1a365d; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Elisheva Kusayeva</h1>
+        <p>Business Analytics & Accounting | Aspiring Financial Engineer</p>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/elisheva-k-60336b31b" target="_blank">LinkedIn</a>
+            <a href="mailto:swissmoney00@gmail.com">Email Profile</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>Executive Summary</h2>
+            <p>Honors College student at Hofstra University’s Zarb School of Business pursuing a dual major in Business Analytics and Accounting, minoring in Finance (Cumulative GPA: 3.96 | Major GPA: 4.0). Driven by the intersection of empirical asset pricing, market data systems, and risk analytics, I actively pair corporate accounting precision with quantitative modeling, statistical estimation frameworks, and advanced mathematical self-study to prepare for graduate-level financial engineering.</p>
+        </div>
+
+        <div class="section">
+            <h2>Featured Quantitative Deployments</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Quantitative Portfolio Optimizer</h3>
+                    <p>An algorithmic framework applying linear algebra matrix operations to process historical asset vectors, compute a covariance matrix, and locate optimal weight parameters maximizing a portfolio's Sharpe Ratio.</p>
+                    <div><span class="tag">Python</span><span class="tag">NumPy</span><span class="tag">Linear Algebra</span></div>
+                    <a href="https://github.com/ElishevaK-00/Quant-Portfolio-Optimizer" class="btn" target="_blank">View Repository</a>
+                </div>
+                
+                <div class="card">
+                    <h3>Global Cyber Incident Map</h3>
+                    <p>A live interactive geospatial intelligence dashboard converting raw threat infrastructure research data into a fully rendered web map featuring custom, color-coded parametric threat overlays.</p>
+                    <div><span class="tag">Leaflet.js</span><span class="tag">Spatial Data</span><span class="tag">Geocoding</span></div>
+                    <a href="https://ElishevaK-00.github.io/Global-Cyber-Incident-Map/" class="btn" target="_blank">Launch Live App</a>
+                </div>
+
+                <div class="card">
+                    <h3>Financial Time-Series Forecasting</h3>
+                    <p>A rolling risk estimation program utilizing historical pricing datasets to compute logarithmic asset returns and apply a 21-day rolling standard deviation model to map shifting market volatilities.</p>
+                    <div><span class="tag">Data Manipulation</span><span class="tag">Risk Modeling</span><span class="tag">Pandas</span></div>
+                    <a href="https://github.com/ElishevaK-00/Financial-Time-Series-Forecasting" class="btn" target="_blank">View Blueprint</a>
+                </div>
+
+                <div class="card">
+                    <h3>Algorithmic Backtester</h3>
+                    <p>An object-oriented transaction simulation engine implementing a systematic 50/200-day moving average crossover framework to backtest historical strategy performance and trace alpha metrics.</p>
+                    <div><span class="tag">Execution Logic</span><span class="tag">Backtesting</span><span class="tag">Strategy Development</span></div>
+                    <a href="https://github.com/ElishevaK-00/Algorithmic-Backtester" class="btn" target="_blank">View Blueprint</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Independent Academic Preparation</h2>
+            <ul>
+                <li><strong>Linear Algebra:</strong> Comprehensive independent study of matrix structures, vector spaces, determinants, and transformations (MIT OpenCourseWare 18.06 framework).</li>
+                <li><strong>Probability Theory:</strong> Focus on random variable structures, distributions, conditional expectation variables, and stochastic systems (Harvard Stat 110 baseline).</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
